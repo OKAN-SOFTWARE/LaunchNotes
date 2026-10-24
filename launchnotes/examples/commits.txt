@@ -1,9 +1,0 @@
-feat: add keyboard shortcuts
-feat(editor): remember last selected theme
-fix: keep the preview in sync after edits
-fix(export): include headings in downloaded markdown
-perf: load the workspace faster
-security: validate uploaded file names
-docs: explain the offline workflow
-test: cover empty release notes
-chore: tidy development scripts
