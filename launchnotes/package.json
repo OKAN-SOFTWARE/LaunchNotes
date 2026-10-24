@@ -1,0 +1,10 @@
+{
+  "name": "launchnotes",
+  "version": "1.0.0",
+  "description": "Turn commit messages into clear release notes. Runs locally, no account or API key.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Okan Tiktas",
+  "engines": {"node": ">=20"},
+  "scripts": {"start": "node src/server.js", "check": "node --check src/core.js && node --check src/cli.js && node --check src/server.js && node --check web/app.js"}
+}
