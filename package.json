@@ -6,5 +6,5 @@
   "license": "MIT",
   "author": "Okan Tiktas",
   "engines": {"node": ">=20"},
-  "scripts": {"start": "node src/server.js", "check": "node --check src/core.js && node --check src/cli.js && node --check src/server.js && node --check web/app.js"}
+  "scripts": {"start": "node src/server.js", "check": "node --check src/core.js && node --check src/cli.js && node --check src/server.js && node --check web/app.js", "test": "node --test"}
 }
